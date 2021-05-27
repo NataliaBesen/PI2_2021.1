@@ -14,6 +14,8 @@ Conclui-se que a Domótica atua trazendo diversos benefícios para a vida das pe
 
 ## Referências
 
+[Referência_Domótica][(./Referências/Domótica)
+
 <https://www.gta.ufrj.br/grad/10_1/domotica/aplicacoes.html>
 
 <https://www.infoescola.com/tecnologia/domotica/>
