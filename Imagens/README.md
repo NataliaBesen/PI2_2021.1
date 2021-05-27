@@ -1,2 +1,1 @@
-
-Imagens utilizadas no projeto
+Local destinado para as imagens utilizadas no projeto
