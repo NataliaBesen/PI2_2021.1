@@ -7,6 +7,6 @@ Ao longo dos anos a tecnologia vem proporcionando cada vez mais conforto e comod
 
 A imagem abaixo apresenta aplicações da Domótica:
 
-![domotica1](https://www.gta.ufrj.br/grad/10_1/domotica/aplicacoes.html)
+![domotica1](https://www.gta.ufrj.br/grad/10_1/domotica/images/domotica1.jpg)
 
 Conclui-se que a Domótica atua trazendo diversos benefícios para a vida das pessoas em diversos apectos e consequentemente, melhora a qualidade de vida da população. 
