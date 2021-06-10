@@ -2,7 +2,7 @@
 
 
 
-![Introdução](./introducao.md)
+[Introdução](./introducao.md)
 
 ## Referências
 
