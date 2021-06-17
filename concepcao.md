@@ -3,7 +3,7 @@ O objetivo do projeto é criar um sistema de automação residêncial que propor
 Utilizado o software AutoCAD Web foi criada a planta baixa da casa que será automatizada, com o intuito de facilitar a visualização do projeto:
 
 
-
+![Planta Baixa](./Imagens/plantabaixa.PNG)
 
 
 
