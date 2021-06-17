@@ -1,5 +1,6 @@
 # Concepção
 O objetivo do projeto é criar um sistema de automação residêncial que proporcione mais conforto, comodidade, segurança e economia para o morador e atenda aos requisitos estabelecidos. Devido ao intuito didático do projeto, esse sistema será implementado em uma maquete que será projetada por cada aluno, utilizando componentes eletrônicos para simular o funcionamento dos equipamentos que seriam controlados na residência.
+
 Utilizado o software AutoCAD Web foi criada a planta baixa da casa que será automatizada, com o intuito de facilitar a visualização do projeto:
 
 
