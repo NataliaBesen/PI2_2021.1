@@ -9,7 +9,7 @@ Utilizado o software AutoCAD Web foi criada a planta baixa da casa que será aut
 
 Os requisitos do projeto são:
 * Controlar a iluminação dos cômodos.
-* Controle dos LEDs de forma remota (com o PC).
+* Controle dos LEDs de forma remota.
 * Sensor de presença para o jardim.
 * Sensor de gás.
 * Servomotor portão eletrônico.
