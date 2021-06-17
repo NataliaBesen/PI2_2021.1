@@ -22,4 +22,4 @@ O sistema criado não se limitará aos requisitos e utilizará outras tecnologia
 * Sensor de presença para acender um luz e acionar um alarme localizado na varanda.
 * Sensor de gás para detectar vazamentos localizado na cozinha, avisando o morador por meio do alarme.
 * Matrix de LEDs mostrando informações relevantes sobre o sistema.
-* Controle de todo o sistema, ligar e desligar todos recusrsos, utilizando celular ou computador.
+* Controle de todo o sistema, ligar e desligar todos recusrsos, remotamente.
