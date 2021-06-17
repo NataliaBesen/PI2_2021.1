@@ -18,7 +18,7 @@ O sistema criado não se limitará aos requisitos e utilizará outras tecnologia
 
 * Controle da iluminação utilizando um sensor de luminosidade, contribuindo para a economia de energia.
 * Controle da temperatura, utilizando um sensor para ligar um ventilador.
-* Sensor de presença para acender um luz e acionar um alarme.
-* Sensor de gás para detectar vazamentos, avisando o morador por meio do alarme.
+* Sensor de presença para acender um luz e acionar um alarme localizado na varanda.
+* Sensor de gás para detectar vazamentos localizado na cozinha, avisando o morador por meio do alarme.
 * Matrix de LEDs mostrando informações relevantes sobre o sistema.
 * Controle de todo o sistema, ligar e desligar todos recusrsos, utilizando celular ou computador.
