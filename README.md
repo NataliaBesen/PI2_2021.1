@@ -2,8 +2,8 @@
 
 
 
-[Introdução](./introducao.md)
+* [Introdução](./introducao.md)
 
-[Concepção](./concepcao.md)
+* [Concepção](./concepcao.md)
 
-[Referências](./referencias.md)
+* [Referências](./referencias.md)
