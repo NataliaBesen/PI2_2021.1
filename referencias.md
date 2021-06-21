@@ -1,8 +1,7 @@
 ## Referências
-MOREIRA, Julio Cezar Evaristo et al. Redes Domiciliares. Disponível em: https://www.gta.ufrj.br/grad/10_1/domotica/index.html. Acesso em: 24 maio 2021.
+MOREIRA, Julio Cezar Evaristo et al. **Redes Domiciliares**. Disponível em: <https://www.gta.ufrj.br/grad/10_1/domotica/index.html>. Acesso em: 24 maio 2021.
 
-https://www.infoescola.com/tecnologia/domotica/
-
+ADAMI, Ana. Domótica. **Info Escola**. Disponível em: <https://www.infoescola.com/tecnologia/domotica/>. Acesso em: 25 maio 2021.
 https://www.delphini.com.br/2013/03/o-que-e-domotica.html
 
 https://mundoeducacao.uol.com.br/informatica/domotica.htm
