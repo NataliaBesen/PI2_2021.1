@@ -7,5 +7,3 @@ O projeto terá como tema a Domótica e será desenvolvido em quatro etapas de a
 * [Introdução](./introducao.md)
 
 * [Concepção](./concepcao.md)
-
-* [Referências](./referencias.md)
