@@ -4,6 +4,6 @@ Projeto atribuído a unidade curricular de Projeto Integrador II do semestre 202
 
 O projeto terá como tema a Domótica e será desenvolvido em quatro etapas de acordo com a "Abordagem CDIO: Conceive, Design, Implement and Operate".
 
-* [Introdução](./introducao.md)
+1. [Introdução](./introducao.md)
 
-* [Concepção](./concepcao.md)
+2. [Concepção](./concepcao.md)
