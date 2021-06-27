@@ -24,4 +24,4 @@ O sistema criado não se limitará aos requisitos e utilizará outras tecnologia
 * Controle de todo o sistema, ligar e desligar recursos, remotamente.
 
 A imagem a seguir mostra onde será localizado cada tecnologia empregada:
-![Planta com ícones](./Imagens/planta_icones.JPG)
+![Planta com ícones](./Imagens/planta_icones.jpg)
