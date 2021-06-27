@@ -12,13 +12,16 @@ Os requisitos do projeto são:
 * Controlar a iluminação dos cômodos.
 * Sensor de presença para o jardim.
 * Sensor de gás.
-* Servomotor portão eletrônico.
+* Servomotor para portão eletrônico.
 
 O sistema criado não se limitará aos requisitos e utilizará outras tecnologias para satisfazer o objetivo do projeto da melhor forma possível. Os recursos que serão utilizados para tornar a casa automatizada são:
 
-* Controle da iluminação utilizando um sensor de luminosidade, contribuindo para a economia de energia.
-* Controle da temperatura, utilizando um sensor para ligar um ventilador.
-* Sensor de presença para acender um luz e acionar um alarme localizado na varanda.
+* Controle da iluminação no jardim utilizando um sensor de luminosidade.
+* Controle da temperatura, utilizando um sensor para ligar um ventilador localizado na sala.
+* Sensor de presença para acender a luz e acionar um alarme localizado na varanda.
 * Sensor de gás para detectar vazamentos localizado na cozinha, avisando o morador por meio do alarme.
 * Matrix de LEDs mostrando informações relevantes sobre o sistema.
-* Controle de todo o sistema, ligar e desligar todos recursos, remotamente.
+* Controle de todo o sistema, ligar e desligar recursos, remotamente.
+
+A imagem a seguir mostra onde será localizado cada tecnologia empregada:
+![Planta com ícones](./Imagens/planta_icone.JPG)
