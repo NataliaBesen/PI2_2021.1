@@ -23,5 +23,5 @@ O sistema criado não se limitará aos requisitos e utilizará outras tecnologia
 * Matrix de LEDs mostrando informações relevantes sobre o sistema.
 * Controle de todo o sistema, ligar e desligar recursos, remotamente.
 
-A imagem a seguir mostra onde será localizado cada tecnologia empregada:
+A imagem a seguir mostra onde será localizada cada tecnologia:
 ![Planta com ícones](./Imagens/planta_icones.jpg)
