@@ -10,7 +10,7 @@ Os requisitos do projeto são:
 * Sensor de presença para acender a luz e acionar um alarme localizado na varanda.
 * Sensor de gás para detectar vazamentos localizado na cozinha, avisando o morador por meio do alarme e mensagem com instruções.
 * Servomotor para controlar o portão.
-* Matrix de LEDs mostrando informações relevantes sobre o sistema.
+* Display LCD mostrando informações relevantes sobre o sistema.
 * Controle de todo o sistema, ligar e desligar recursos, remotamente.
 
 Utilizando o software AutoCAD Web foi criada a planta baixa da casa que será automatizada, com o intuito de facilitar a visualização do projeto. A imagem a seguir mostra a planta baixa e as tecnologias que serão implementadas em cada ambiente:
