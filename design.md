@@ -9,10 +9,11 @@ Componente | Quantidade
 Arduino Mega 2560 |   1
 Micro Servo SG92R 9g |   1
 HC-sr501 |   1
-MQ5 |   1
-LM35 |   1
+MQ2 |   1
+DHT11 |   1
 LDR |   1
-Buzzer Passivo 5V |   1
+Módulo Buzzer Passivo 5V |   1
+Módulo relé 5V |   1
 Cooler 5V  |   1
 Potenciômetro B10k |   1
 Display LCD 16x2 |   1
@@ -32,13 +33,15 @@ A maquete eletrônica foi construída utilizando o software Fritzing, com ela é
 
 * HC-sr501: Esse é o modelo do sensor de presença que será utilizado, ele é alimentado com 5V e é conectado a um pino de entrada digital. Quando detectado algum movimento ele enviará nível lógico alto para o arduíno.
 
-* MQ5: Sensor de gás selecionado devido a alta sensibilidade e rápida resposta para GLP (gás de cozinha). Ele é conectado a um pino de entrada digital que receberá nível lógico alto quando for detectado gás e um pino de entrada analógica que receberá a concentração de gás verificada pelo sensor.
+* MQ2: Sensor de gás selecionado pois ele detecta GLP(gás de cozinha) e fumaça. Ele é conectado a um pino de entrada digital que receberá nível lógico alto quando for detectado gás e um pino de entrada analógica que receberá a concentração de gás verificada pelo sensor.
 
-* LM35: É o sensor de temperatura que será utilizado, pois possui boa precisão e possui uma relação da tensão de saída com a temperatura em Grau Celsius e não em KELVIN como é o caso de outros sensores. Ele pode ser alimentado com 5V e envia para um pino de entrada analógica um sinal de 10mV para cada Grau Celsius de temperatura.
+* DHT11: Sensor de temperatura e umidade alimentado com 5V, ele envia os dados registrados por um pino de entrada analógica
 
 * LDR: É um sensor de luminosidade e sua resistência varia de acordo com a intensidade de luz, desse modo é necessário um resistor para que o pino de entrada analógica do arduino possa identificar a variação de resistência no LDR por meio da tensão sobre ele. 
 
 * Buzzer Passivo 5V : Controlado por um pino de saída digital emitirá diferentes sons para alertar o usuário do sistema.
+
+* Módulo relé 5V: O relé será acionado por meio de um pino de saída digital e será utilizado para controlar o cooler. O uso dele faz-se necessário, pois a corrente dos pinos de saída não seriam suficientes para liga-lo e além é mais seguro devido ao relé isolar o cooler do microcontrolador.
 
 * Cooler 5V: Liga e desliga por meio de um pino de saída digital.
 
