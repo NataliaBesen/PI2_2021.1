@@ -18,7 +18,7 @@ Cooler 5V  |   1
 Potenciômetro B10k |   1
 Display LCD 16x2 |   1
 LED Branco |   7
-Resistor 100 ohm |   7
+Resistor 330 ohm |   7
 Resistor de 10k ohm |   1
 
 ## Maquete Eletrônica
