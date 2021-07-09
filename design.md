@@ -43,7 +43,7 @@ A maquete eletrônica foi construída utilizando o software Fritzing, com ela é
 
 * Módulo relé 5V: O relé será acionado por meio de um pino de saída digital e será utilizado para controlar o cooler. O uso dele faz-se necessário, pois a corrente dos pinos de saída não seriam suficientes para liga-lo e além é mais seguro devido ao relé isolar o cooler do microcontrolador.
 
-* Cooler 5V: Liga e desliga por meio de um pino de saída digital.
+* Cooler 5V: Liga e desliga por meio do relé, alimentado com 5V.
 
 * Display LCD 16x2: O display possui 16 pinos, sendo os pinos 1 e 2 alimentação, pino 3 é conectado a um potenciômetro para controle do contraste do LCD, pinos 4 e 6 são conectados em pinos de saída digital e são para controle, pino 5 seleciona o modo escrita ao ser conectado ao GND. Já os pinos de 11 a 14 são os responáveis pelo envio de dados para o LCD e os pinos 15 e 16 são conectados à alimentação para acender a tela de fundo. Ele será resposável por exibir mensagens sobre o funcionamento do sistema.  
 
