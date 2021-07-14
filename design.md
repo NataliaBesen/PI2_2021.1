@@ -18,7 +18,7 @@ Cooler 5V  |   1
 Potenciômetro B10k |   1
 Display LCD 16x2 |   1
 LED Branco |   7
-Resistor 330 ohm |   7
+Resistor 430 ohm |   7
 Resistor de 10k ohm |   1
 
 ## Maquete Eletrônica
@@ -47,6 +47,6 @@ A maquete eletrônica foi construída utilizando o software Fritzing, com ela é
 
 * Display LCD 16x2: O display possui 16 pinos, sendo os pinos 1 e 2 alimentação, pino 3 é conectado a um potenciômetro para controle do contraste do LCD, pinos 4 e 6 são conectados em pinos de saída digital e são para controle, pino 5 seleciona o modo escrita ao ser conectado ao GND. Já os pinos de 11 a 14 são os responáveis pelo envio de dados para o LCD e os pinos 15 e 16 são conectados à alimentação para acender a tela de fundo. Ele será resposável por exibir mensagens sobre o funcionamento do sistema.  
 
-* LED Branco: Os LEDs serão controlados por pinos de saídas digitais e necessitam de resistores para que tenham tensão de 3V e corrente de 10mA.
+* LED Branco: Os LEDs serão controlados por pinos de saídas digitais e necessitam de resistores para que tenham tensão de 3V e corrente menor que 5mA.
 
 
