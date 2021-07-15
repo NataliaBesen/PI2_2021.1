@@ -23,7 +23,7 @@ Resistor de 10k ohm |   1
 
 ## Maquete Eletrônica
 
-![Maquete_Eletrônica](./Imagens/design.png)
+![Maquete_Eletrônica](./Imagens/design_.png)
 
 A maquete eletrônica foi construída utilizando o software Fritzing, com ela é possível planejar como serão feitas as conexões entre os materiais na etapa da implementação. A seguir, será apresentada uma breve explicação de cada componente que compõe o projeto e o motivo pelo qual eles foram selecionados:
 
