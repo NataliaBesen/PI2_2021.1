@@ -41,17 +41,7 @@ void setup()   {
   
   void loop()
 {
-  //inicializa uma variavel do tipo char chamada tecla
-
-
-  // armazena em "tecla" o retorno da função read()
-  //essa função lê um valor que é escrito na porta serial
-  Serial.println("Pressione 'l' para ligar os LEDs e o numero do LED que deseja ligar:");
-
-  if (Serial.available() != 0) ler_teclado();
-
-  Serial.println("codigo no loop");
-  
+  ler_teclado();
 }
 
 void ler_teclado() {
