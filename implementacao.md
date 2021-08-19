@@ -16,5 +16,7 @@ Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o c
 
 Após a obtenção dos componentes definidos na estapa do design, é necessário entender o funcionamento e realizar os testes de cada item separadamente. Desta forma, é possível identificar possíveis problemas a serem solucionados e dúvidas a serem sanadas.
 
+A programação é realizada por meio da [IDE do arduino](https://www.arduino.cc/en/software)
+
 * [LEDs](./Testes/LEDs.md)
 
