@@ -16,5 +16,5 @@ Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o c
 
 Após a obtenção dos componentes definidos na estapa do design, é necessário entender o funcionamento e realizar os testes de cada item separadamente. Desta forma, é possível identificar possíveis problemas a serem solucionados e dúvidas a serem sanadas.
 
-* [LEDs](../Testes/LEDs.md)
+* [LEDs](./Testes/LEDs.md)
 
