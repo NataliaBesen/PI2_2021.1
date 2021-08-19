@@ -1,0 +1,2 @@
+# Usando o Monitor Serial
+O Monitor Serial é uma ferramenta importante da plataforma Arduino que torna possível transmitir ou ler informações na forma de texto. Ele será fundamental para a construção do projeto, pois por meio dele será feita a comunicação com o usuário, exibindo dados e mensagem sobre o sistema na tela do computador e recebendo via teclado todos os comandos para executar tarefas. 
