@@ -15,4 +15,4 @@ Os requisitos do projeto são:
 
 Utilizando o software AutoCAD Web foi criada a planta baixa da casa que será automatizada, com o intuito de facilitar a visualização do projeto. A imagem a seguir mostra a planta baixa e as tecnologias que serão implementadas em cada ambiente:
 
-![Planta com ícones](./Imagens/planta_icones.jpg)
+![Planta com ícones](./Imagens/planta_baixa.jpg)
