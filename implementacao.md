@@ -19,5 +19,5 @@ Após a obtenção dos componentes definidos na estapa do design, é necessário
 A programação é realizada por meio da [IDE Arduino](https://www.arduino.cc/en/software) e antes de executar os códigos é preciso selecionar o modelo da placa que será utilizado, nesse caso Arduino Mega 2560. Nos links abaixo serão descritos como foram realizados os testes de cada parte do projeto:
 
 * [LEDs](./Testes/LEDs.md)
-* [LEDs](./Testes/monitor_serial.md)
+* [Monitor Serial](./Testes/monitor_serial.md)
 
