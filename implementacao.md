@@ -10,5 +10,8 @@ Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o c
 
 (falar sobre mecanismo do portão)
 
+(foto)
+
 ## Testes dos componentes 
+
 
