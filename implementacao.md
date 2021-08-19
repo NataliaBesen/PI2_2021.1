@@ -16,7 +16,8 @@ Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o c
 
 Após a obtenção dos componentes definidos na estapa do design, é necessário entender o funcionamento e realizar os testes de cada item separadamente. Desta forma, é possível identificar possíveis problemas a serem solucionados e dúvidas a serem sanadas.
 
-A programação é realizada por meio da [IDE do arduino](https://www.arduino.cc/en/software)
+A programação é realizada por meio da [IDE Arduino](https://www.arduino.cc/en/software) e antes de executar os códigos é preciso selecionar o modelo da placa que será utilizado, nesse caso Arduino Mega 2560. Nos links abaixo serão descritos como foram realizados os testes de cada parte do projeto:
 
 * [LEDs](./Testes/LEDs.md)
+* 
 
