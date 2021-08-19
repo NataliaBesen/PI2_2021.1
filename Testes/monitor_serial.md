@@ -5,6 +5,63 @@ Para demonstrar o seu funcionamento foi criada uma aplicação para acender e ap
 
 ### Montagem do Circuito
 
+![Monitor_serial](../Imagens/monitorserial.PNG)
+
+### Código
+
+~~~C
+/*Declaração da conexão dos componentes nos pinos*/
+#define LED1 2
+#define LED2 3
+#define LED3 4
+#define LED4 5
+#define LED5 6
+#define LED6 7
+#define LED7 8
+
+/*Declaração da função*/
+void ler_teclado();
+
+void setup()   {
+
+  // inicializamos a porta serial onde vamos escrever
+  //os dados que serao lidos pela função Serial.read()
+  Serial.begin(9600);
+  
+  /*Inicializa pinos dos LEDs como saída*/
+  pinMode(LED1, OUTPUT);
+  pinMode(LED2, OUTPUT);
+  pinMode(LED3, OUTPUT);
+  pinMode(LED4, OUTPUT);
+  pinMode(LED5, OUTPUT);
+  pinMode(LED6, OUTPUT);
+  pinMode(LED7, OUTPUT);
+  
+  }
+  
+  void loop()
+{
+  //inicializa uma variavel do tipo char chamada tecla
 
 
+  // armazena em "tecla" o retorno da função read()
+  //essa função lê um valor que é escrito na porta serial
+  Serial.println("Pressione 'l' para ligar os LEDs e o numero do LED que deseja ligar:");
 
+  if (Serial.available() != 0) ler_teclado();
+
+  Serial.println("codigo no loop");
+  
+}
+
+void ler_teclado() {
+  /*A função Serial.available() retorna um valor diferente de 0 se tiver algo para ler no monitor*/
+  if (Serial.available() != 0)
+  {
+    char tecla;             //inicializa uma variavel do tipo char chamada tecla 
+    /*A função Serial.read() lê o que foi escrito no monitor e o valor será armazenado em "tecla"  */
+    tecla = Serial.read();  
+                            
+                            
+
+~~~
