@@ -5,7 +5,7 @@ Acender LEDs é o primeiro passo para entender o funcionamento do arduino e fun�
 ### Montagem do circuito
 Para acender LEDs utilizando o arduíno é necessário utilizar resistores para adequar a tensão e corrente e evitar danificar os LEDs. O resistor utilizado foi de 680 ohms, mas podem ser utilizados outros valores desde que mantenham a corrente e tensão abaixo dos valores máximos suportados pelo LED.
 
-![pisca_led](../Imagens/pisca_led.png)
+![pisca_led](../Imagens/pisca_led.jpg)
 
 ### Código
 
