@@ -51,7 +51,31 @@ void ler_teclado() {
     char tecla;             //inicializa uma variavel do tipo char chamada tecla 
     /*A função Serial.read() lê o que foi escrito no monitor e o valor será armazenado em "tecla"  */
     tecla = Serial.read();  
-                            
+    
+    //Cada tecla controla um LED
+    switch (tecla)
+    {
+      case '1':
+        digitalWrite(LED1, !digitalRead(LED1));
+        break;
+      case '2':
+        digitalWrite(LED2, !digitalRead(LED2));
+        break;
+      case '3':
+        digitalWrite(LED3, !digitalRead(LED3));
+        break;
+      case '4':
+        digitalWrite(LED4, !digitalRead(LED4));
+        break;
+      case '5':
+        digitalWrite(LED5, !digitalRead(LED5));
+        break;
+      case '6':
+        digitalWrite(LED6, !digitalRead(LED6));
+        break;
+      case '7':
+        digitalWrite(LED7, !digitalRead(LED7));
+        break;                        
                             
 
 ~~~
