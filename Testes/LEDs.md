@@ -2,6 +2,7 @@
 
 Acender LEDs é o primeiro passo para entender o funcionamento do arduíno e funções básicas como pinMode e digitalWrite. Inicialmente, será exibido a montagem do circuito e o código para uma aplicação simples de pisca LED.
 
+![pisca_led](../Imagens/pisca_led.jpg)
 
 ~~~C
 #define LED 2  //define o pino digital em que o LED está conectado
