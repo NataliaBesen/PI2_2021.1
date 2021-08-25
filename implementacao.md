@@ -29,9 +29,34 @@ Uma ferramente que será muito importante para o sistema é o monitor serial, po
 
 ### Leitura do sensor de presença
 
-Essa tarefa é responsável por ler o sensor PIR e caso seja detectada presença ela é responsável por acender um LED, ligar o alarme e enviar uma mensagem para o monitor serial. O alarme pode ser desligado e ligado via teclado, assim como toda a tarefa também. Essa tarefa é temporizada e é declada da seguinte forma:
+Essa tarefa faz a leitura do sensor PIR e caso seja detectada presença ela é responsável por acender um LED, ligar o alarme e enviar uma mensagem para o monitor serial. O alarme pode ser desligado e ligado via teclado, assim como toda a tarefa. Essa tarefa é temporizada e é declarada da seguinte forma:
 
 ~~~C
 void ler_PIR (unsigned long tempo_atual)
 ~~~
+
+### Leitura do sensor de gás
+
+Faz a leitura do sensor de gás e exibe o valor lido no monitor serial, quando esse valor atingir o limite máximo estipulado o alarme é ligado e uma mensagem é exibida no monitor serial. Essa função também é temporizada e é declarada como:
+
+~~~C
+void ler_MQ2(unsigned long tempo_atual) 
+~~~
+
+### Leitura do sensor de temperatura e umidade
+
+Função temporizada responsável por ler os valores de temperatura e umidade e exibi-los no monitor serial, além disso quando a temperatura atinge um limite definido o cooler é acionado. O sistema de refrigeração com cooler pode ser ligado e desligado via teclado. A declaração desse tarefa é:
+
+~~~C
+void ler_DHT(unsigned long tempo_atual)
+~~~
+
+### Leitura do sensor de luminosidade 
+
+A leitura do LDR é feita por essa tarefa, o valor lido pela por porta analógica é exibido no monitor serial e controla a iluminação do jardim. Quando a luminosidade for baixa, de acordo com um valor limite estipulado, um LED verde será aceso e quando a luminosidade for alta o LED apagará. Essa 
+
+
+
+
+
 
