@@ -31,7 +31,7 @@ Uma ferramente que será muito importante para o sistema é o monitor serial, po
 
 Essa tarefa faz a leitura do sensor PIR e caso seja detectada presença ela é responsável por acender um LED, ligar o alarme e enviar uma mensagem para o monitor serial. O alarme pode ser desligado e ligado via teclado, assim como toda a tarefa. Essa tarefa é temporizada e é declarada da seguinte forma:
 
-~~~C
+~~~ C
 void ler_PIR (unsigned long tempo_atual)
 ~~~
 
@@ -39,7 +39,7 @@ void ler_PIR (unsigned long tempo_atual)
 
 Faz a leitura do sensor de gás e exibe o valor lido no monitor serial, quando esse valor atingir o limite máximo estipulado o alarme é ligado e uma mensagem é exibida no monitor serial. Essa função também é temporizada e é declarada como:
 
-~~~C
+~~~ C
 void ler_MQ2(unsigned long tempo_atual) 
 ~~~
 
@@ -47,7 +47,7 @@ void ler_MQ2(unsigned long tempo_atual)
 
 Função temporizada responsável por ler os valores de temperatura e umidade e exibi-los no monitor serial, além disso quando a temperatura atinge um limite definido o cooler é acionado. O sistema de refrigeração com cooler pode ser ligado e desligado via teclado. A declaração desse tarefa é:
 
-~~~C
+~~~ C
 void ler_DHT(unsigned long tempo_atual)
 ~~~
 
