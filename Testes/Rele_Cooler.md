@@ -4,4 +4,6 @@ Nesse caso ele será ativado em nível lógico alto, portanto deve-se utilizar o
 
 ### Montagem do circuito
 
+![Cooler](../Imagens/cooler.PNG)
+
 
