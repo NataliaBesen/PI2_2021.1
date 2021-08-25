@@ -1,7 +1,10 @@
 # Testando sensor de luminosidade
 
+Para analisar a variação da reistência do LDR de acordo com a luz ele é conectado com um resistor, pois assim por meio do pino analógico será possível ler variação da tensão gerada por ele. Nesse exemplo apenas é exibido esse valor no monitor serial, mas uma aplicação para esse sensor é acender ou apagar um LED estipulando um limite para o valor lido.
+
 ### Montagem do circuito
 
+![LDR](../Imagens/LDR.PNG)
 
 ### Código
 
