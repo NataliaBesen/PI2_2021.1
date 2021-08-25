@@ -1,6 +1,10 @@
 # Testando sensor de temperatura
 
+Para utilização de sensores DHT é necessário utilizar uma biblioteca própria para ele, que possui funções para inicializa-lo, ler temperatura e ler umidade. Nesse teste os valores lidos e mensagens sobre o sensor são exibidos no monitor serial.
+
 ### Montagem do circuito
+
+![DHT](../Imagens/DHT.PNG)
 
 ### Código
 
