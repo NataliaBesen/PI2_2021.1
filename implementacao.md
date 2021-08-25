@@ -15,3 +15,11 @@ Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o c
 
 * [Monitor Serial](./Testes/monitor_serial.md)
 
+## Tarefas realizadas pelo sistema
+
+Para criação das tarefas é necessário integrar os componentes, que já foram testados individulamente na etapa anterior. Como diversas tarefas serão executadas repetidamente, há alguns cuidados a serem tomados para um funcionamento adequado do sistema, como por exemplo não utilizar funções que bloqueiem completamente o sistema que é o caso da função delay().  Além disso, certas tarefas não precisam ou não podem ser executadas a todo momento, sem um tempo de espera, por esses motivos algumas tarefas serão temporizadas.
+
+Para exemplificar, a técnica de multitarefas que será utilizada, o código abaixo demostra como temporizar duas tarefas simples de piscar LED:
+
+
+
