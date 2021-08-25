@@ -1,10 +1,11 @@
 # Testando o Servo 
-O Servo MG995 utilizado pode girar até 180°, porém foi constatado nos testes que ao chegar no seu limite de ângulo ocorre uma trepidação que afeta seu funcionamento e pode sobrecarregar o Arduino. Portanto serão utilizados ângulos ligeiramente antes dos limites para evitar esse problema.
+O Servo MG995 utilizado pode girar 180°, porém foi constatado nos testes que ao chegar no seu limite de ângulo ocorre uma trepidação que afeta seu funcionamento e pode sobrecarregar o Arduino. Portanto serão utilizados ângulos ligeiramente antes dos limites para evitar esse problema.
 
 Para utilização de Servo Motores no Arduino, há uma biblioteca que deve ser incluída e que permite controla-los de forma simples enviando o ângulo desejado por meio de uma função.
 
 ### Montagem do circuito
-
+ 
+ ![Servo](../Imagens/servo.PNG)
 
 ### Código
 
