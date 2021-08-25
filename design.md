@@ -15,10 +15,10 @@ LDR |   1
 Módulo Buzzer Passivo 5V |   1
 Módulo relé 5V |   1
 Cooler 5V  |   1
-Potenciômetro B10k |   1
-Display LCD 16x2 |   1
-LED Branco |   7
-Resistor 430 ohm |   7
+Display LCD I2C 16x2 |   1
+LED Branco |   6
+LED Verde |   1
+Resistor 680 ohm |   7
 Resistor de 10k ohm |   1
 
 ## Maquete Eletrônica
@@ -47,7 +47,7 @@ A maquete eletrônica foi construída utilizando o software Fritzing, com ela é
 
  * Display LCD 16x2 I2C: O display LCD necsessita de diversos pinos para se conectar ao Arduino, porém com módulo I2C integrado essa conexão é feita utilizando apenas quatro pinos. Dois pinos são utilizados para alimentação e os outros dois para comunicação, no caso do Arduino Mega os pinos I2C a serem utilizados são o 20 (SDA) e 21 (SCL). O display LCD será resposável por exibir mensagens sobre o funcionamento do sistema.  
 
-* LED Branco: Os LEDs serão controlados por pinos de saídas digitais e necessitam de resistores para que tenham tensão de 3V e corrente menor que 5mA.
+* LEDs: Os LEDs serão controlados por pinos de saídas digitais e necessitam de resistores para que tenham tensão de 3V e corrente menor que 5mA.
 
 ## Testes dos componentes 
 
