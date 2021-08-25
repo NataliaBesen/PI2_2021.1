@@ -2,7 +2,10 @@
 
 O sensor de presença PIR é conectado a um pino digital de entrada, quando é detectada presença o sensor envia para o Arduino nível lógico alto. Portanto, utilizando a função digitalRead()
 é possível identificar quando há presença e realizar a ação que desejar em seguida, nesse caso a mensagem "Presença destectada" é exibida no monitor serial.
+
 ### Montagem do circuito
+
+![PIR](../Imagens/pir.PNG)
 
 ### Código
 
