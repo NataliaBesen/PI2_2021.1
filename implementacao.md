@@ -53,7 +53,13 @@ void ler_DHT(unsigned long tempo_atual)
 
 ### Leitura do sensor de luminosidade 
 
-A leitura do LDR é feita por essa tarefa, o valor lido pela por porta analógica é exibido no monitor serial e controla a iluminação do jardim. Quando a luminosidade for baixa, de acordo com um valor limite estipulado, um LED verde será aceso e quando a luminosidade for alta o LED apagará. Essa 
+A leitura temporizada do LDR é feita por essa tarefa, o valor lido pela por porta analógica é exibido no monitor serial e controla a iluminação do jardim. Quando a luminosidade for baixa, de acordo com um valor limite estipulado, um LED verde será aceso e quando a luminosidade for alta o LED apagará. Esse sistema de iluminação pode ser desligado e ligado por meio do teclado e a função para ela é:
+
+~~~ C
+void ler_LDR(unsigned long tempo_atual)
+~~~ 
+
+
 
 
 
