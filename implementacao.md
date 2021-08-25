@@ -21,5 +21,5 @@ Para criação das tarefas é necessário integrar os componentes, que já foram
 
 Para exemplificar, a técnica de multitarefas que será utilizada, o código abaixo demostra como temporizar duas tarefas simples de piscar LED:
 
-
+[Exemplo tarefas](./Codigos/ex_tarefas.ino)
 
