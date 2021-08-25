@@ -1,7 +1,7 @@
 # Testando o Servo 
 O Servo MG995 utilizado pode girar 180°, porém foi constatado nos testes que ao chegar no seu limite de ângulo ocorre uma trepidação que afeta seu funcionamento e pode sobrecarregar o Arduino. Portanto serão utilizados ângulos ligeiramente antes dos limites para evitar esse problema.
 
-Para utilização de Servo Motores no Arduino, há uma biblioteca que deve ser incluída e que permite controla-los de forma simples enviando o ângulo desejado por meio de uma função.
+Para utilização de Servo Motores no Arduino, há uma biblioteca que deve ser incluída e que permite controlá-los de forma simples, enviando o ângulo desejado por meio de uma função.
 
 ### Montagem do circuito
  
@@ -10,27 +10,29 @@ Para utilização de Servo Motores no Arduino, há uma biblioteca que deve ser i
 ### Código
 
 ~~~C
-#include <Servo.h> //INCLUSÃO DA BIBLIOTECA NECESSÁRIA
+#include <Servo.h> //Inclusão da bibliotéca necessária
 
-const int pinoServo = 9; //PINO DIGITAL UTILIZADO PELO SERVO
+#define SERVO 9 //Pino digital utilizado pelo servo
 
-Servo s; //OBJETO DO TIPO SERVO
-int pos; //POSIÇÃO DO SERVO
+Servo s; //Objeto do tipo servo
+int pos; //Posição do servo
 
 void setup () {
   delay(5000);
-  s.attach(pinoServo); //ASSOCIAÇÃO DO PINO DIGITAL AO OBJETO DO TIPO SERVO
-  s.write(0); //INICIA O MOTOR NA POSIÇÃO 0º
+  s.attach(SERVO); //Associação do pino digital ao objeto do tipo servo
+  s.write(0); //Inicia o motor na posição 0°
 }
 void loop() {
-  for (pos = 10; pos <= 160; pos++) { //PARA "pos" IGUAL A 10, ENQUANTO "pos" MENOR QUE 160, INCREMENTA "pos"
-    s.write(pos); //ESCREVE O VALOR DA POSIÇÃO QUE O SERVO DEVE GIRAR
-    delay(50); //INTERVALO DE 15 MILISSEGUNDOS
+ /*Incrementa a variável "pos" de 10 a 160*/
+  for (pos = 10; pos <= 160; pos++) { 
+    s.write(pos); //Escreve o valor da posição que o servo deve girar
+    delay(50); //Intervalo de 15ms
   }
-  delay(1000); //INTERVALO DE 1 SEGUNDO
-  for (pos = 160; pos >= 10; pos--) { //PARA "pos" IGUAL A 160, ENQUANTO "pos" MAIOR OU IGUAL QUE 10, DECREMENTA "pos"
-    s.write(pos); //ESCREVE O VALOR DA POSIÇÃO QUE O SERVO DEVE GIRAR
-    delay(50); //INTERVALO DE 15 MILISSEGUNDOS
+  delay(1000); //Intervalo de 1s
+  /*Decrementa a variável "pos" de 160 a 10*/
+  for (pos = 160; pos >= 10; pos--) { 
+    s.write(pos); //Escreve o valor da posição que o servo deve girar
+    delay(50); //Intervalo de 15ms
   }
 
 }
