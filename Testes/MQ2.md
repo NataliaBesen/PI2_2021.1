@@ -1,6 +1,10 @@
 # Testando o sensor de gás 
 
 Nesse teste o sensor MQ2 será conectado a um pino analógico e por meio da função analogRead() será possível obter a quantidade gás lida pelo sensor. Esse valor será exibido por meio do Monitor Serial do Arduino.
+
+### Montagem do circuito
+
+![MQ2](../Imagens/MQ2.PNG)
 ### Código
 
 ~~~C
