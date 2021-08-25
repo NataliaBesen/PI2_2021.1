@@ -10,7 +10,7 @@ O sensor de presença PIR é conectado a um pino digital de entrada, quando é d
 ### Código
 
 ~~~C
-#define PIR    3   //Pino digital onde está o sensor de presença
+#define PIR    5   //Pino digital onde está o sensor de presença
 
 void setup() {
 
