@@ -6,4 +6,23 @@ Nesse caso ele será ativado em nível lógico alto, portanto deve-se utilizar o
 
 ![Cooler](../Imagens/cooler.PNG)
 
+### Código
+
+~~~C
+#define RELE 2   //Pino digital onde o relé está
+  
+void setup()
+{
+  /*Define pino do rele como saída*/
+  pinMode(RELE, OUTPUT);   
+}
+   
+void loop()
+{
+  digitalWrite(RELE, HIGH);  //Liga relé 
+  delay(2000); //Espera 2 segundos
+  digitalWrite(RELE, HIGH); //Desliga o relé
+  delay(2000); //Espera 2 segundos
+}
+~~~
 
