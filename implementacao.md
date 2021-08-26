@@ -85,6 +85,8 @@ Integrar as tarefas e funções do código é feito de forma muito simples, prim
 
 * [Código completo casa automatizada](./Codigos/casa_automatizada.ino)
 
+Por fim, após todo o circuito montado e funcionando corretamente, os componentes foram dispostos nos seus devidos lugares na maquete, cumprindo com o que foi planejado na etapa inicial da concepção.
+
 ![Maquete integrada](./Imagens/integracao_maquete.jpg)
 
 
