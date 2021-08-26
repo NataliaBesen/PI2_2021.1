@@ -9,7 +9,7 @@ Na etapa da concepção foi apresentada a planta baixa da casa em questão, base
 Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o cooler e o sensor de gás, portanto para ser possível a visualização destes a casa possui um telhado removível. O arduino e matriz de contatos serão localizados na região da garagem e os fios de conexão levarão os componentes aos seus locais definidos.
 
 
-![Maquete](./Imagens/maquete.jpg)
+![Maquete](./Imagens/fabricacao_maquete.PNG)
 
 ## Tarefas realizadas pelo sistema
 
