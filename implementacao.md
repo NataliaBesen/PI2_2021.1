@@ -57,7 +57,7 @@ void ler_LDR(unsigned long tempo_atual)
 
 ### Controle do portão
 
-Essa é uma função não temporizada e ela é executada somente quando o usuário envia um comando pelo teclado. Ela é responsável por girar o motor de 10° a 160° e em seguida quando o usuário apertar novamente a tecla destinada ao portão o motor irá retornar para a posição 0°. A funçao é declarada da forma exibida a seguir e a variável booleana que ela recebe indica qual movimento o motor deve fazer, icrementar ou decrementar o ângulo.
+Essa é uma função não temporizada e ela é executada somente quando o usuário envia um comando pelo teclado. Ela é responsável por girar o motor de 10° a 90° e em seguida quando o usuário apertar novamente a tecla destinada ao portão o motor irá retornar para a posição 0°. A funçao é declarada da forma exibida a seguir e a variável booleana que ela recebe indica qual movimento o motor deve fazer, icrementar ou decrementar o ângulo.
 
 ~~~ C
 void controle_portao (bool portao)
@@ -85,6 +85,6 @@ Integrar as tarefas e funções do código é feito de forma muito simples, prim
 
 * [Código completo casa automatizada](./Codigos/casa_automatizada.ino)
 
-
+![Maquete integrada](./Imagens/integracao_maquete.png)
 
 
