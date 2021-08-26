@@ -9,7 +9,7 @@ Na etapa da concepção foi apresentada a planta baixa da casa em questão, base
 Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o cooler e o sensor de gás, portanto para ser possível a visualização destes a casa possui um telhado removível. O arduino e matriz de contatos serão localizados na região da garagem e os fios de conexão levarão os componentes aos seus locais definidos.
 
 
-* ![Maquete](./Imagens/maquete.jpg)
+![Maquete](./Imagens/maquete.jpg)
 
 ## Tarefas realizadas pelo sistema
 
@@ -79,7 +79,11 @@ E por fim essa tarefa que é muito importante para o sistema, ela é encarregada
 void ler_comandos()
 ~~~
 
+# Integração do projeto
 
+Integrar as tarefas e funções do código é feito de forma muito simples, primeiramente são declarados todos os pinos onde estão conectados os componentes, variáveis globais e funções e em seguida na função setup() é realizada a inicialização de todo o sistema. Na função loop() são chamadas todas as tarefas temporizadas e a função ler_comandos() de acordo com o exemplo de multitarefas mostrado anteriormente. O resultado final do código do sistema para a casa automatizada pode ser visualizado no link abaixo:
+
+* [Código completo casa automatizada](./Codigos/casa_automatizada.ino)
 
 
 
