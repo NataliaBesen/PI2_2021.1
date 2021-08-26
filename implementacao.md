@@ -75,7 +75,7 @@ Essa função é responsável por exibir no monitor serial se os sistemas dos se
 void status_sistema ()
 ~~~
 
-## Ler comandos do teclado 
+### Ler comandos do teclado 
 
 E por fim essa tarefa que é muito importante para o sistema, ela é encarregada de ler as teclas enviadas pelo teclado e realizar a sua respectiva ação. A função não é temporizada e ela só será inteiramente executada quando algo for enviado pelo monitor serial. As teclas são usadas para controlar os LEDs, o portão e o cooler, além disso há teclas para ligar e desligar partes do sistema e uma tecla para exibir o status do sistema. A declaração da função é:
 
