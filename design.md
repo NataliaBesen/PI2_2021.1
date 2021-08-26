@@ -58,3 +58,9 @@ A programação é realizada por meio da [IDE Arduino](https://www.arduino.cc/en
 * [LEDs](./Testes/LEDs.md)
 * [Cooler e Relé](./Testes/Rele_Cooler.md)
 * [Servo](./Testes/Servo.md)
+* [Buzzer](./Testes/Buzzer.md)
+* [Sensor de temperatura e umidade](./Testes/DHT.md)
+* [Sensor de luminosidade](./Testes/LDR.md)
+* [Sensor de presença](./Testes/PIR.md)
+* [Sensor de gás](./Testes/MQ2.md)
+* LCD: O LCD disponibilizado não estava funcionando, portanto não será utilizado nas etapas seguintes.
