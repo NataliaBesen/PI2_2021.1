@@ -85,6 +85,6 @@ Integrar as tarefas e funções do código é feito de forma muito simples, prim
 
 * [Código completo casa automatizada](./Codigos/casa_automatizada.ino)
 
-![Maquete integrada](./Imagens/integracao_maquete.png)
+![Maquete integrada](./Imagens/integracao_maquete.jpg)
 
 
