@@ -59,7 +59,29 @@ A leitura temporizada do LDR é feita por essa tarefa, o valor lido pela por por
 void ler_LDR(unsigned long tempo_atual)
 ~~~ 
 
+### Controle do portão
 
+Essa é uma função não temporizada e ela é executada somente quando o usuário envia um comando pelo teclado. Ela é responsável por girar o motor de 10° a 160° e em seguida quando o usuário apertar novamente a tecla destinada ao portão o motor irá retornar para a posição 0°. A funçao é declarada da forma exibida a seguir e a variável booleana que ela recebe indica qual movimento o motor deve fazer, icrementar ou decrementar o ângulo.
+
+~~~ C
+void controle_portao (bool portao)
+~~~
+
+### Exibir status do sistema
+
+Essa função é responsável por exibir no monitor serial se os sistemas dos sensores estão ligados ou desligados, ela só é executada quando o usuário evia um comando via teclado. A sua declaração é:
+
+~~~ C
+void status_sistema ()
+~~~
+
+## Ler comandos do teclado 
+
+E por fim essa tarefa que é muito importante para o sistema, ela é encarregada de ler as teclas enviadas pelo teclado e realizar a sua respectiva ação. A função não é temporizada e ela só será inteiramente executada quando algo for enviado pelo monitor serial. As teclas são usadas para controlar os LEDs, o portão e o cooler, além disso há teclas para ligar e desligar partes do sistema e uma tecla para exibir o status do sistema. A declaração da função é:
+
+~~~ C
+void ler_comandos()
+~~~
 
 
 
