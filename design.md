@@ -65,7 +65,7 @@ A programação é realizada por meio da [IDE Arduino](https://www.arduino.cc/en
 * [Sensor de gás](./Testes/MQ2.md)
 * LCD: O LCD disponibilizado não estava funcionando, portanto não será utilizado nas etapas seguintes.
 
-Posteriormente, para a criação das tarefas será necessário integrar esses componentes. Como diversas tarefas serão executadas repetidamente, há alguns cuidados a serem tomados para um funcionamento adequado do sistema, como por exemplo não utilizar funções que bloqueiem completamente o sistema que é o caso da função delay().  Além disso, certas tarefas não precisam ou não podem ser executadas a todo momento, sem um tempo de espera, por esses motivos algumas tarefas serão temporizadas.
+Há alguns cuidados a serem tomados para um funcionamento adequado de um sistema com diversas tarefas senso executadas repetidamente, como por exemplo não utilizar funções que bloqueiem completamente o sistema que é o caso da função delay().  Além disso, certas tarefas não precisam ou não podem ser executadas a todo momento, sem um tempo de espera, por esses motivos algumas delas serão temporizadas.
 
 Para exemplificar, a técnica de multitarefas que será utilizada, o código abaixo demostra como temporizar duas tarefas simples de piscar LED:
 
