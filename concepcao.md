@@ -2,7 +2,6 @@
 O objetivo do projeto é criar um sistema de automação residêncial que proporcione mais conforto, comodidade, segurança e economia para o morador e atenda aos requisitos estabelecidos. Devido ao intuito didático do projeto, esse sistema será implementado em uma maquete que será projetada por cada aluno, utilizando componentes eletrônicos para simular o funcionamento dos equipamentos que seriam controlados na residência.
 
 Visando satisfazer o objetivo do projeto da melhor forma possível os recursos utilizados na automatização da casa serão:
-Os requisitos do projeto são:
 
 * Controle remoto de toda a iluminação da casa.
 * Controle da iluminação no jardim utilizando um sensor de luminosidade.
