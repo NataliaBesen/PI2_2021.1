@@ -3,7 +3,24 @@
 
         Aplicação para automatizar uma maquete, utilizando sensores, LEDs e outros componentes.
         O controle da aplicação é feito via teclado.
-         
+        
+                  Arduino Mega
+                -----------------
+            /|\|              A0 |- <-- MQ2
+             | |              A1 |- <-- DHT
+             --| RST          A2 |- <-- LDR
+               |                 |
+   LED1  <---  | D6              |
+   LED2  <---  | D7              |        -+
+   LED3  <---  | D8              |- <- Rx  -  Cabo USB     
+   LED4  <---  | D9              |- -> Tx  -
+   LED5  <---  | D10             |        -+
+   LED6  <---  | D11             |
+   LED7  <---  | D12             |
+  SERVO  <---  | D3          D51 |- <-- PIR
+  BUZZER <---  | D4              |
+  COOLER <---  | D5              |
+ 
 */
 
 /*Inclusão de bibliotecas necessárias*/
@@ -19,9 +36,9 @@
 #define LED6 11
 #define LED7 12
 #define SERVO 3
-#define teste 13
-#define COOLER 5
 #define BUZZER 4
+#define COOLER 5
+
 
 #define PIR    51   //sensor de presença
 #define MQ2    A0   //sensor de gás
