@@ -6,7 +6,7 @@ Para enviar a frequência sonora que será emitida pelo buzzer, utiliza-se a fun
 
 ### Montagem do circuito
 
-![Buzzer](../Imagens/buzzer.png)
+![Buzzer](../Imagens/buzzer.PNG)
 
 ### Código
 
