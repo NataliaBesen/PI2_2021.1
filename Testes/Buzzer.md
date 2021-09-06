@@ -1,8 +1,8 @@
 # Tenstando o Buzzer
 
-O buzzer passivo utilizado é capaz de reproduzir sons de diferentes frequências, podendo gerar difeferentes melodias. Durante os testes foi constanto que o buzzer disponibilizado possui acionamento PNP, ou seja, para desliga-lo é necessário enviar nível lógico para ele. 
+O buzzer passivo utilizado é capaz de reproduzir sons de diferentes frequências, podendo gerar difeferentes melodias. Durante os testes foi constanto que o buzzer disponibilizado possui acionamento PNP, ou seja, para desliga-lo é necessário enviar nível lógico alto para ele. 
 
-Para enviar a frequência sonora para o buzzer gerar, utiliza-se a função tone(pino, frequência) ou tone(pino, frequência, duração) e em seguida quando for necessário desliga-lo deve-se usar as funções noTone(pino) e digitalWrite(pino, HIGH), como é possível visualizar no teste abaixo. Para reproduzir um som com frequência variando, como uma sirene, será empregada uma função seno.
+Para enviar a frequência sonora que será emitida pelo buzzer, utiliza-se a função tone(pino, frequência) ou tone(pino, frequência, duração) e em seguida quando for necessário desliga-lo deve-se usar as funções noTone(pino) e digitalWrite(pino, HIGH), como é possível visualizar no teste abaixo. Para reproduzir um som com frequência variando, como uma sirene, será empregada uma função seno.
 
 ### Montagem do circuito
 
