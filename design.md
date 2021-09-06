@@ -23,7 +23,7 @@ Resistor de 10k ohm |   1
 
 ## Maquete Eletrônica
 
-![Maquete_Eletrônica](./Imagens/Design.png)
+![Maquete_Eletrônica](./Imagens/maquete_eletronica.png)
 
 Por meio da confecção de uma maquete eletrônica é possível planejar como serão feitas as conexões entre os materiais na etapa da implementação. A seguir, será apresentada uma breve explicação de cada componente que compõe o projeto e o motivo pelo qual eles foram selecionados:
 
