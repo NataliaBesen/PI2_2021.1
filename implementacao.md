@@ -1,6 +1,6 @@
 # Implementação
 
-A etapa da implementação é o momento de materializar o que foi descrito anteriormente, nas etapas de concepção e design. A seguir, serão descritos os processos de fabricação da maquete, codificação, teste e validação de cada tarefa do sistema e integração do todo para obtenção dos resultados desejados. 
+Nas etapas anterioires, concepção e design, foram idealizadas e em seguida planejadas todas as funcionabilidades para aplicar o conceito da domótica em uma maquete e nessa etapa da implementação é o momento de materializar o projeto. A seguir, serão descritos os processos de fabricação da maquete, codificação, teste e validação de cada tarefa do sistema e integração do todo para obtenção dos resultados desejados. 
 
 ## Fabricação da maquete
 
@@ -13,6 +13,7 @@ Alguns componentes estarão localizados nos cômodos da sala e cozinha, como o c
 
 ## Tarefas realizadas pelo sistema
 
+Na etapa anterior, foram realizados os testes individuais de cada componente, portanto para a criação das tarefas é necessário apenas integra-los da forma correta. Vale lembrar que as tarefas serão escalonadas na função loop, utilizando o métopo de multitarefas exemplicado no design. A baixo serão detalhadas cada tarefa, e seu respectivo funcionamento:
 
 ### Leitura do sensor de presença
 
