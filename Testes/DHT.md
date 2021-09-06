@@ -41,5 +41,6 @@ void loop()
     Serial.print(t);
     Serial.println(" *C");
   }
+  delay(3000);  //Intervalo de 3s
 }
 ~~~
