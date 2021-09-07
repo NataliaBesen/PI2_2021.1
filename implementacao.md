@@ -67,7 +67,7 @@ void status_sistema ()
 
 Responsável por mostrar ao usuário, por meio do monitor serial, quais os comandos que ele deve enviar via teclado para controlar cada parte do sistema. O menu é exibido assim que o sistema é inicializado, na função setup(), e em seguida pode ser requisitado novamente utilizando a tecla 'i'. Como a função não recebe nenhum argumento e não gera nenhum retorno sua declaração é:
 
-~~~ C++
+~~~ C
 void menu ()
 ~~~
 
@@ -75,7 +75,7 @@ void menu ()
 
 E por fim essa tarefa que é muito importante para o sistema, ela é encarregada de ler as teclas enviadas pelo teclado e realizar a sua respectiva ação. A função não é temporizada e ela só será inteiramente executada quando algo for enviado pelo monitor serial. As teclas são usadas para controlar os LEDs, o portão e o cooler, além disso há teclas para ligar e desligar partes do sistema e uma tecla para exibir o status do sistema. A declaração da função é:
 
-~~~ C++
+~~~ C
 void ler_comandos()
 ~~~
 
