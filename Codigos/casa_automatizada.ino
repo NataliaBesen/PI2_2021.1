@@ -166,7 +166,7 @@ void ler_comandos() {
         portao = !portao;
         controle_portao (portao);
         break;
-      case 'i':
+      case 's':
         status_sistema();
         break;
       default:
