@@ -96,7 +96,7 @@ Por fim, os componentes foram dispostos nos seus devidos lugares na maquete e fo
 * Ligar e desligar LEDs e cooler.
 * Abrir e fechar o portão. 
 
-Por meio destas ações foi possível concluir que todo o sistema 
+Por meio destas ações foi possível concluir que todo o sistema funciona corretamente, cumprindo com o que foi planejado nas etapas anteriores de concepção e design.
 
 ![Maquete integrada](./Imagens/integracao_maquete.jpg)
 
