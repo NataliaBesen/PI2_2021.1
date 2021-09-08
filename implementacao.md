@@ -87,7 +87,16 @@ Integrar as tarefas e funções do código é feito de forma muito simples, prim
 
 * [Código completo casa automatizada](./Codigos/casa_automatizada.ino)
 
-Por fim, após todo o circuito montado e funcionando corretamente, os componentes foram dispostos nos seus devidos lugares na maquete, cumprindo com o que foi planejado na etapa inicial da concepção.
+Por fim, os componentes foram dispostos nos seus devidos lugares na maquete e foram realizados diversos testes para validação do projeto. A seguir, estão listados alguns dos testes aplicados:
+
+* Ativar os sistemas de cada sensor, individualmente e em conjunto.
+* Liberar gás com um isqueiro para acionar o sensor de gás.
+* Modificar a temperatura de acionamento do cooler para a temperatura do ambiente.
+* Modificar a luminosidade limite do LDR para a luz do ambiente.
+* Ligar e desligar LEDs e cooler.
+* Abrir e fechar o portão. 
+
+Por meio destas ações foi possível concluir que todo o sistema 
 
 ![Maquete integrada](./Imagens/integracao_maquete.jpg)
 
