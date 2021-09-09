@@ -18,4 +18,4 @@ Utilizando o software AutoCAD Web foi criada a planta baixa da casa que será au
 
 # Referências
 
-
+AUTOCAD Web App. [S. l.]: Autodesk Inc, 2021. Disponível em: https://web.autocad.com/login. Acesso em: 17 jun. 2021.
