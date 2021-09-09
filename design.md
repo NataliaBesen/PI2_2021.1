@@ -78,4 +78,10 @@ Uma ferramente que será muito importante para o sistema é o monitor serial, po
 # Referências
 
 * [Fritzing](https://fritzing.org/)
-
+* [Tutorial Arduino LPAE](https://github.com/LPAE/arduino_tutorial)
+* [Utilizando sensor de presença](https://www.filipeflop.com/blog/acendendo-uma-lampada-com-sensor-de-presenca/)
+* [Utilizando sensor de gás](https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-sensor-detector-de-gas-inflamavel-fumaca-mq-2)
+* [Utilizando LDR](https://www.filipeflop.com/universidade/kit-maker-arduino/projeto-10-sensor-de-luz-ambiente/)
+* [Utilizando DHT11](https://www.filipeflop.com/produto/sensor-de-umidade-e-temperatura-dht11/) 
+* [Utilizando servo motot=r](https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-servo-motor-mg995
+) 
