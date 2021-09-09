@@ -77,4 +77,5 @@ Uma ferramente que será muito importante para o sistema é o monitor serial, po
 
 # Referências
 
+* [Fritzing](https://fritzing.org/)
 
