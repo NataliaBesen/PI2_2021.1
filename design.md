@@ -83,5 +83,5 @@ Uma ferramente que será muito importante para o sistema é o monitor serial, po
 * [Utilizando sensor de gás](https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-sensor-detector-de-gas-inflamavel-fumaca-mq-2)
 * [Utilizando LDR](https://www.filipeflop.com/universidade/kit-maker-arduino/projeto-10-sensor-de-luz-ambiente/)
 * [Utilizando DHT11](https://www.filipeflop.com/produto/sensor-de-umidade-e-temperatura-dht11/) 
-* [Utilizando servo mototr](https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-servo-motor-mg995
+* [Utilizando servo motor](https://blogmasterwalkershop.com.br/arduino/como-usar-com-arduino-servo-motor-mg995
 ) 
