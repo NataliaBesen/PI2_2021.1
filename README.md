@@ -1,7 +1,7 @@
 # Projeto Integrador II
 
-Projeto atribuído a unidade curricular de Projeto Integrador II do semestre 2021.1 do Curso de Engenharia Eletrônica do IFSC. 
-
+Projeto atribuído a unidade curricular de Projeto Integrador II do semestre 2021.1 do Curso de Engenharia Eletrônica do IFSC. Ministrada pelos professores Luiz Alberto de Azevedo, 
+Renan Augusto Starke e Moises Naison Rodrigues Oliveira.
 O projeto terá como tema a Domótica e será desenvolvido em quatro etapas de acordo com a "Abordagem CDIO: Conceive, Design, Implement and Operate".
 
 1. [Introdução](./introducao.md)
